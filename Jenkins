@@ -10,5 +10,6 @@ pipeline {
             steps { 
                 echo 'Welcome to all world'
             }
+         }   
     }
 }
