@@ -16,7 +16,7 @@ pipeline {
                 echo 'Welcome to everyone world'
             }
          }
-         stage('final) {
+         stage('final') {
             steps { 
                 echo 'Welcome to 2nd world'
             }
