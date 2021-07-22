@@ -10,6 +10,11 @@ pipeline {
             steps { 
                 echo 'Welcome to all world'
             }
-         }   
+         } 
+         stage('step 2') {
+            steps { 
+                echo 'Welcome to everyone world'
+            }
+         }
     }
 }
